@@ -22,6 +22,8 @@ async def on_message(message):
         await message.channel.send("\U0001f642")
     elif message.content.startswith('$enbuyuk'):
         await message.channel.send("CİMBOMBOM! CİMBOMBOM!")
+    elif message.content.startswith('$enkucuk'):
+        await message.channel.send("FB! FB!")
     else:
         await message.channel.send("Şifreniz: " + gen_pass(10))
 
