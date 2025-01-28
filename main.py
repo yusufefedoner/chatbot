@@ -25,6 +25,6 @@ async def on_message(message):
     elif message.content.startswith('$enkucuk'):
         await message.channel.send("FB! FB!")
     else:
-        await message.channel.send("Şifreniz: " + gen_pass(10))
+        await message.channel.send("Şifreniz: " + gen_pass(50))
 
 client.run("BURAYA TOKEN GELECEK")
